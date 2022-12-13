@@ -27,7 +27,7 @@
  
  
  ## WARNING!
- Please stay away from any kind of unware means . I hope you got my point .
+ Please stay away from any kind of unfair means . I hope you got my point .
  
- **HAPPY** **LEARNIG** .
+ **HAPPY** **LEARNING** .
  
