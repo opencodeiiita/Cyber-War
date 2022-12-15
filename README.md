@@ -26,8 +26,15 @@
  Whenever you are facing any kind of doubt then feel free to ask your doubts on our [discord](https://discord.gg/D9999YTkS8) channel . We will definitely figure it out and help you in completing your tasks .
  
  
- ## WARNING!
- Please stay away from any kind of unfair means . I hope you got my point .
+ ## WARNING
+ Please stay away from any kind of unfair means . I hope you got my point because if you perform fair then only we take care .
  
  **HAPPY** **LEARNING** 
+ 
+ <br><br>
+ <p align="center">
+  <b>LET THE WAR BEGINS BE READY !</b>
+  <br><br>
+  <img src="https://c.tenor.com/AWaHdQNwiXgAAAAM/bunny.gif">
+</p>
  
