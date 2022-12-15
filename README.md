@@ -3,10 +3,10 @@
 
 ## About the Repo
 * This Repo will contain some Weekely Tasks which will be given throughout the `OpenCode`.
-* Tasks are designed for each and everyone no matters how much he/she knows in the field of Cyber Security , also the difficulty level of tasks will increase week by week , atlast you will learn something new definitely . 
+* Tasks are designed for each and everyone no matters how much he/she knows in the field of Cyber Security , also the difficulty level of tasks will increase week by week , atlast you will learn something new definitely. 
 * This Repo would start with set-up of Linux lab , linux basics to networking , footprinting , web harvesting, ctfs, and one simple project.
 * Tasks will be given in starting of every week.
-* There will be some recreative tasks also which will give you the essence of `Cyber Security` .
+* There will be some recreative tasks also which will give you the essence of `Cyber Security`.
 
 
  ## How to Submit
@@ -20,14 +20,14 @@
  Each task of the week contains some points but the most important thing is **rewarding** **criteria** and that will be based on :
  * First 3 correct PR(Pull Request) will get full points.
  * Next 2 correct PR(Pull Request) will get half points of that task.
- * After that no grading will takes place .
+ * After that no grading will takes place.
  
  ## Communication
- Whenever you are facing any kind of doubt then feel free to ask your doubts on our [discord](https://discord.gg/D9999YTkS8) channel . We will definitely figure it out and help you in completing your tasks .
+ Whenever you are facing any kind of doubt then feel free to ask your doubts on our [discord](https://discord.gg/D9999YTkS8) channel . We will definitely figure it out and help you in completing your tasks.
  
  
  ## WARNING
- Please stay away from any kind of unfair means . I hope you got my point because if you perform fair then only we take care .
+ Please stay away from any kind of unfair means . I hope you got my point because if you perform fair then only we take care.
  
  **HAPPY** **LEARNING** 
  
