@@ -20,7 +20,7 @@
  Each task of the week contains some points but the most important thing is **rewarding** **criteria** and that will be based on :
  * First 3 correct PR(Pull Request) will get full points.
  * Next 2 correct PR(Pull Request) will get half points of that task.
- * After that no grading will takes place.
+ * After that only 10 points rewarded.
  
  ## Communication
  Whenever you are facing any kind of doubt then feel free to ask your doubts on our [discord](https://discord.gg/D9999YTkS8) channel . We will definitely figure it out and help you in completing your tasks.
