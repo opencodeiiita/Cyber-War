@@ -1,0 +1,7 @@
+whoami
+pwd
+cd ..
+ls
+cat ~/tmp.txt
+less ~/tmp.txt
+man dirb
