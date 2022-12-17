@@ -1,0 +1,9 @@
+chmod +x <file_name>
+
+x --> execute
+
+or
+
+chmod +777 <file_name>
+
+777 --> for all permissions(read,write,execute)
