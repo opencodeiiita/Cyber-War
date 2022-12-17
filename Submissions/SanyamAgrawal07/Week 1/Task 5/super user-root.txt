@@ -1,0 +1,12 @@
+Yes,they are same
+Root is the superuser account in Unix and Linux. 
+It is a user account for administrative purposes, and typically has the highest access rights on the system.
+
+To get root access
+// Unlock root first
+sudo passwd root
+// set the password
+su -
+// input the password you just set
+
+And Done!
