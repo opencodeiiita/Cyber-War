@@ -1,0 +1,7 @@
+1. pwd
+2. cd
+3. mkdir
+4. ls
+5. man
+6. cp
+7. rm
