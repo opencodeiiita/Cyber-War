@@ -1,0 +1,4 @@
+chmod +x (file_name) 
+
+here chmod represents change mode changes mode of file in any type read, write, execute etc
+here x represents executable functionality
