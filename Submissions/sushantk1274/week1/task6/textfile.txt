@@ -1,0 +1,10 @@
+1 import PyPDF2
+2 a = PyPDF2.PdfFileReader('progit.pdf')
+3 # print(a.documentInfo)
+4 # print(a.getNumPages())
+ 5 str = ""
+6 for i in range(1, 31):
+7 str += a.getPage(i).extractText()
+8
+9 with open("text.txt", "w", encoding='utf-8')
+as f:
