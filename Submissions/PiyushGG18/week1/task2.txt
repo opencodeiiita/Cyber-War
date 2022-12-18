@@ -1,7 +1,7 @@
-1) ls -> lists all folders and files within the folder
+ls -> lists all folders and files within the folder
 2) cd -> change directory == changes the folder
 3) mkdir -> make directory == makes folder
-4) rm -> remove == remove files
+4) rm -> remove 1) == remove files
 5) touch -> creates file
 6) clear -> clears screen
 7) git add . -> adds all unstaged changes to staging
