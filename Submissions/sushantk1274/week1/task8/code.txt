@@ -1,0 +1,1 @@
+i have opened metasploitable first and use ifconfig function for sake of ip address and then use ping command o linux to check connection
