@@ -1,0 +1,16 @@
+// Downloaded Metasploitable 2 Virtual Machine Disk Format file
+// Added a Virtual Machine naming Metasploitable in VirtualBox ( Linux - Ubuntu 64 bit)
+
+// Attaching Network as Bridged Adapter
+
+// Starting VM and logging in
+
+Metasploitable login : msfadmin
+password: msfadmin
+
+// VM started 
+// To get the ip address of the Metasploitable VM 
+
+ifconfig
+
+// Coping the eth0 inet ip address and pasting it the browser, Metasploitable machine loads on the browser
