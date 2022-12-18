@@ -1,0 +1,5 @@
+chmod +x <file_name>
+
++ used to allow permission
+x refers to execute
+chmod means to change mode...

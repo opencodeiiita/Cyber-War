@@ -1,0 +1,12 @@
+//to access the root or superuser
+//first need to set passwd of root user
+
+1. sudo passwd root
+
+//then access the user by entering the same passwd
+
+2. su - 
+
+//to check directory of root
+
+3. pwd
