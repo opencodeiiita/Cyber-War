@@ -4,4 +4,4 @@ chmod +x <file_name>
 
 chmod +777 <file_name>
 
-here 7 is for read another 7 is for write and other 7 is for execute
+here 7 is for read another 7 is for write and the other 7 is for execute
