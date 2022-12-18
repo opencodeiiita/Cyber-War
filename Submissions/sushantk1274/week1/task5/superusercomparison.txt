@@ -1,0 +1,13 @@
+yes,they both are same  as root user is the superuser account in linux and unix.
+basically,it has administrative power and have all control ..
+
+
+to get root access
+we have to stop using sudo command  firstly
+--//unlock root first
+To get root access
+and then
+sudo password root
+// set the password
+su -
+// input the password you just set
