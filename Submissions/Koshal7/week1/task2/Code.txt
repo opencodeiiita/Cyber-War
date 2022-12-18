@@ -1,0 +1,9 @@
+// 7 basic linux commands
+
+1. sudo su 
+2. ls
+3. pwd
+4. cd Desktop
+5. whoami 
+6. mkdir Tesk
+7. rmdir Test
