@@ -1,0 +1,17 @@
+//To check whether metasploitable ip address active or not
+
+//First boot metasploitable & login using default credentials 
+
+default username - msfadmin
+default passwd - msfadmin
+
+//Then check your ip address using cmd
+
+ifconfig 
+
+//then boot another os like kali
+//after booting kali enter the ip address of metasploitable in browser 
+//it will lead you to the home page of metasploitable
+//Done!
+
+// i have added ss for reference
