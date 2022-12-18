@@ -7,5 +7,5 @@ This command writes its arguments to standard output.
 5. mkdir -> make directory == makes folder
 6. touch -> creates file
 7. clear -> clears screen
-end....
+end..
 
