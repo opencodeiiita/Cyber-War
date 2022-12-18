@@ -1,0 +1,11 @@
+1. pwd
+This command Displays the current working directory of the terminal.
+2. echo
+This command writes its arguments to standard output.
+3.ls -> lists all folders and files within the folder
+4. cd -> change directory == changes the folder
+5. mkdir -> make directory == makes folder
+6. touch -> creates file
+7. clear -> clears screen
+end....
+
