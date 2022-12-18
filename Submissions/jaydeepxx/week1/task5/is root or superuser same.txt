@@ -1,0 +1,2 @@
+'root' is traditionally the name given to the user account with superuser level rights. In this respect they are one and the same.
+So, yes root & superuser are same.
