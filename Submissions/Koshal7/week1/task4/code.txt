@@ -1,0 +1,7 @@
+// To provide read, write and execute privileges to owner, group and other
+
+chmod 777 <file_name> 
+
+OR 
+chmod +x <file_name>
+
