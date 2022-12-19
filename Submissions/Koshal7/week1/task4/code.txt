@@ -3,5 +3,6 @@
 chmod 777 <file_name> 
 
 OR 
+
 chmod +x <file_name>
 
