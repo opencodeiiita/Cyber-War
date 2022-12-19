@@ -1,0 +1,8 @@
+chmod +rwx <file-name>
+
++ -> Adds the permission to the desired file
+r -> read
+w -> write
+x -> execute
+
+Although here rw are irrelevant for us
