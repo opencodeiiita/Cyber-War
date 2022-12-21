@@ -1,0 +1,10 @@
+// basic linux commands
+
+1. whoami
+2. ls
+3. pwd
+4. cd Downloads
+5. mkdir test2
+6. cal
+7. date
+8. exit
