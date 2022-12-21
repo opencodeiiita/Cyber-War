@@ -1,0 +1,16 @@
+'root' is traditionally the name given to the user account with superuser level rights. 
+In this respect they are one and the same.
+
+When it comes to working with Linux, there are two ways to run administrative applications.
+You can either change over to the super user, also known as the root account, using the “su” command, or you can use the “sudo” command. 
+Which one you use will depend on which type of Linux you have. Some types, such as Fedora, Red Hat, and openSuSE enable the root user, while others, such as Ubuntu and Debian, do not. 
+
+The Unix command su, stands for “substitute user,” “super user,” or “switch user,” and allows you to log in as root and do whatever you want with the system. 
+Sudo stands for either "substitute user do" or "super user do" and it allows you to temporarily elevate your current user account to have root privileges. 
+This is different from “su” which is not temporary. With “sudo,” you continue to use your user account, but with root privilege, whereas in “su,” you are actually logged into the root account. 
+Also, the root privilege in “sudo” is only valid for a finite time. Once that time expires, you have to enter your password again to regain root privilege.
+
+Using “sudo,” you can do pretty much the same things you can with “su.” 
+To use it, you just have to add “sudo” in front of all root commands. 
+Having root user privileges can be dangerous, but using sudo instead of su can help you keep your system more secure. 
+If you are using Linux and you want your actions to be safe, you need to know and understand these two commands.
