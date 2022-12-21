@@ -1,0 +1,9 @@
+// To switch the user to root or super user type "sudo su" in terminal
+
+sudo su
+
+// we type password of the machine and it is switched it root user
+
+// to know the current / present working directory we type 'pwd' in terminal
+
+pwd
