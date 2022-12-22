@@ -1,0 +1,8 @@
+// We use "sudo su" in terminal and then enter the password To switch the user to root user
+   
+   sudo su
+
+
+// to know the current working directory we type 'pwd' in terminal
+
+   pwd
