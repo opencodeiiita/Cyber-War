@@ -1,0 +1,2 @@
+Yes,root user and super user are same. Root user/super user is a user account for administrative purposes, and typically has the highest access rights on
+the system. Root is the superuser account in Unix and Linux. 
