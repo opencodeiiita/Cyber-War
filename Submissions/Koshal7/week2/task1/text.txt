@@ -1,0 +1,20 @@
+This depends on what you need the proxy or VPN for.
+
+If you are after end-to-end encrypted traffic, a VPN is better for you. 
+If you need IP masking and misdirection, a proxy is better suited.
+
+Although proxies and VPNs provide anonymity and act as an intermediary when connecting to the internet, they have major differences.
+
+VPNs are generally slower than proxies because of their encryption process. 
+This makes it unsuited for activities such as scraping, automation, or botting.
+
+Proxies are also more affordable compared to VPN. 
+Some established proxy providers (e.g. Instantproxies, NewIPNow) offer private proxies at $1 each while VPNs can cost significantly more.
+
+
+Port Numbers :
+ HTTP   : 80
+ SSH    : 22
+ FTP    : 20 or 21
+ MySQL  : 3306
+ Cache  : 8080
