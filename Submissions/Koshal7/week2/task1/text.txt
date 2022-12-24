@@ -17,4 +17,4 @@ Port Numbers :
  SSH    : 22
  FTP    : 20 or 21
  MySQL  : 3306
- Cache  : 7777 or 4443
+ Cache  : 8080
