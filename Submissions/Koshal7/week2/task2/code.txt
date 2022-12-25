@@ -1,0 +1,10 @@
+sudo apt install xmltoman
+
+touch xmlfile.xml
+
+gedit xmlfile.xml
+// putting xml code
+
+xmlmantohtml xmlfile.xml > htmlfile.html
+//we get html code 
+
