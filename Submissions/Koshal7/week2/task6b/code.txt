@@ -1,0 +1,11 @@
+sudo apt install youtube-dl
+// dowmload the package.
+
+sudo chmod a+rx /usr/bin/youtube-dl
+// providing executable permissions to it.
+
+cd <directory>
+// providing path where video will be dowmloaded
+
+youtube-dl <video_url>
+// starts dowmloading
