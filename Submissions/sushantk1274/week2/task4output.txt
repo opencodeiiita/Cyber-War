@@ -1,0 +1,17 @@
+-[/home/kali]
+john hash
+Using default input encoding: UTF-8 Loaded 1 password hash (ZIP, WinZip [PBKDF2-SHA1 256/256 AVX2 8x])
+Cost 1 (HMAC size) is 90 for all loaded hashes
+Will run 2 OpenMP threads
+Proceeding with single, rules:Single
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Proceeding with wordlist:/usr/share/john/password.lst
+
+
+
+12345  // the set password
+(hide.zip/hide.txt)
+
+
+1g 0:00:00:01 DONE 2/3 (2022-11-12 20:50) 0.5813g/s 25402p/s 25402c/s 25402C/s 123456.. Peter Use the "--show" option to display all of the cracked passwords reliably Session completed. I
