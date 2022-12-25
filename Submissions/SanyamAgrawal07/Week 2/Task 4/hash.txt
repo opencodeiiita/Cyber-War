@@ -1,0 +1,1 @@
+compressb.zip/file1.txt:$pkzip$1*2*2*0*24*18*61b26bf2*0*43*0*24*268c*402faf87b16608eb5ded50d6ad77b5677393453df56ec547108bf58853d664fadc5563df*$/pkzip$:file1.txt:compressb.zip::compressb.zip
