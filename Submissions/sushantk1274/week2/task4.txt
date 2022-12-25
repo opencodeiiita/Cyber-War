@@ -1,0 +1,7 @@
+here is the code( 1 2 3) for cracking password of zip file
+
+first i have created zip file wih input pssword 12345 as only weak password can be cracked with johnripper and then i have execute the following command
+
+1.) zip2john Desktop/hide.zip
+2.)cat hash(basically for seeing hashed informatio of that file) this process apply brute force for finding password
+3.)john hash(this will reverse hash and give us password in original form)
