@@ -1,0 +1,14 @@
+We create a xml file in the Desktop.
+
+It contains the xml code we convert it into html file.
+
+We use xmltoman package.
+
+Then we change the directory in which the xml file is present.
+
+We run the command as :-
+
+xmlmantohtml filename.xml > newfilename.html
+
+we get the file html file
+
