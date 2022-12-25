@@ -1,0 +1,1 @@
+ k   k   j   k   j   d   k   j   d   f   k   j   d   f   k   k   j   d   f   k   j   k   j   d   f   k   j  Key.ctrl_l  k   j   d   f   k   j  Key.ctrl_l  \x03   k   j   d   f   k   j  Key.ctrl_l  \x03  Key.ctrl_l  k   j   d   f   k   j  Key.ctrl_l  \x03  Key.ctrl_l  \x1a   k   j   d   f   k   j  Key.ctrl_l  \x03  Key.ctrl_l  \x1a  Key.esc 
