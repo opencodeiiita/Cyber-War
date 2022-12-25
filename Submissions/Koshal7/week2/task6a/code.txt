@@ -1,0 +1,5 @@
+sudo apt-get install curl
+// downloading the package through whick we check weather.
+
+curl wttr.in/Delhi
+// command to check weather of a specific place.
