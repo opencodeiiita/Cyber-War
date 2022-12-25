@@ -1,0 +1,1 @@
+mtr command is used for ping and traceroute at the same time a website ping is used for checking conection if ip address is met or not and traceroute is used for troubleshooting a website if we are not fetching informaion..

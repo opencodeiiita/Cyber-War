@@ -1,0 +1,11 @@
+We create a xml file (sampleXML.xml) It contains the xml code we convert it into html file (sample.html).
+
+We use xmltoman package.
+
+Then we change the directory in which the xml file is present.
+
+We run the command as :-
+
+xmlmantohtml sampleXML.xml > sample.html
+
+we get the file html file

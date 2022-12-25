@@ -1,0 +1,36 @@
+We will be using Python's built-in zipfile module, 
+And the third-party tqdm library for quickly printing progress bars:
+
+pip3 install tqdm
+
+We will use the big rockyou wordlist . On Kali Linux, you can find it under the /usr/share/wordlists/rockyou.txt.gz path.
+
+Otherwise we can generate our own wordlist file also.
+
+Open up a new Python file and follow along:
+
+import zipfile
+from tqdm import tqdm
+# Let's specify our target zip file along with the word list path:
+# the password list path you want to use, must be available in the current directory
+wordlist = "rockyou.txt"
+# the zip file you want to crack its password
+zip_file = "SUV.zip"
+
+# initialize the Zip File object
+zip_file = zipfile.ZipFile(zip_file)
+# count the number of words in this wordlist
+n_words = len(list(open(wordlist, "rb")))
+# print the total number of passwords
+print("Total passwords to test:", n_words)
+
+with open(wordlist, "rb") as wordlist:
+    for word in tqdm(wordlist, total=n_words, unit="word"):
+        try:
+            zip_file.extractall(pwd=word.strip())
+        except:
+            continue
+        else:
+            print("[+] Password found:", word.decode().strip())
+            exit(0)
+print("[!] Password not found, try other wordlist.")
