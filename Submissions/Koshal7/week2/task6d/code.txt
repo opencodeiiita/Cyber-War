@@ -1,0 +1,5 @@
+ping google.com ; traceroute google.com
+
+// the symbol ";" can be used
+
+// to perform two operations using only one command only.
