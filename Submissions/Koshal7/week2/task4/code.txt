@@ -1,0 +1,9 @@
+cd Desktop
+
+zip --password pass123 CAR.zip car.jpeg
+
+zip2john CAR.zip > passwd.txt
+
+john passwd.txt
+
+and we get the password.
