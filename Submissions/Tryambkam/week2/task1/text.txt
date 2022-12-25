@@ -1,0 +1,17 @@
+While VPNs and proxy servers both allow you to access the web from a different location, a VPN is much more secure than a proxy server.
+Where proxies only secure your web browser, VPNs secure and encrypt your entire online network. That’s because a VPN encapsulates your internet connection, 
+while a proxy only covers the specific site you’re visiting.
+
+Unlike VPNs, which come preconfigured, proxies also require configuration for each application and service you use (think email, sites, streaming services, 
+etc).Therefore, proxy servers need more manual work upfront while providing a less-than-stellar performance, while most VPN apps require little-to-no 
+customization after they’re installed. 
+
+Moreover, VPNs offer more location options to choose from, not to mention most dedicated VPN services provide apps for virtually every device under the sun. 
+And while it’s worth making the distinction between free proxies and paid ones, neither are as useful as a VPN.
+
+Port Numbers :
+ HTTP   : 80,8080
+ SSH    : 22
+ FTP    : 20,21
+ MySQL  : 3306
+ Cache  : 8080
