@@ -1,0 +1,1 @@
+test.zip/temp.txt:$pkzip$1*2*2*0*23*17*dbcec464*0*42*0*23*6dba*f28bb5846272e639351e538837187caff86872e7b797ad3c4724cc5a4905d37f99135a*$/pkzip$:temp.txt:test.zip::test.zip

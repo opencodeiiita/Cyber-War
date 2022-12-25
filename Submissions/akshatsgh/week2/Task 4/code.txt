@@ -1,0 +1,9 @@
+ Firstly run this command :
+ zip2john <zip_filename> > hash.txt
+
+ Then it will give you text file naming hash.txt which contains hash
+	
+ Now tun this command to crack password from hash:
+ john hash.txt
+ 
+ There comes your password ;)  
