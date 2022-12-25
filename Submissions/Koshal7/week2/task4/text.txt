@@ -1,0 +1,12 @@
+First, we create a password protected zip file.
+
+we have an image of car named as car.jpeg.
+
+we set the password as "pass123". 
+
+Then we use zip2john zipfilename.zip > textfilename.txt
+(we named the textfilename as passwd.txt here)
+
+then john textfilename.txt
+
+and we are able to see the password of the zip file.
