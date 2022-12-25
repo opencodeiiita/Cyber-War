@@ -1,0 +1,16 @@
+you can enable Scroll Lock with this command:
+
+xmodmap -e "add mod3 = Scroll_Lock"
+
+Your Scroll Lock LED should now respond to Scroll Lock key presses.
+
+To activate that modmap in my home directory.
+
+Create a file called .Xmodmap in your home directory containing this line:
+
+add mod3 = Scroll_Lock
+
+//The easiest way to do that is:
+
+cd ~
+echo >.Xmodmap "add mod3 = Scroll_Lock"
