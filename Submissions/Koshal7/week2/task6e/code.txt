@@ -1,0 +1,8 @@
+sudo apt install alsa-utils
+// installing the package. 
+// with the help of this package we can change volume.
+
+amixer set Master 50%
+// setting the volume to 50%
+
+// with the help of package we can mute and unmute also.
