@@ -1,0 +1,12 @@
+The main difference between a proxy and a VPN is encryption. VPNs hide not only your private IP address but all your 
+web activity, such as the websites you visit, using encryption. Proxy servers, on the other hand, will only change 
+your IP address, but they won’t encrypt your online activities.
+
+While proxy servers certainly have their purpose, VPNs are a much more comprehensive and effective way to stay private 
+online.
+
+http: 80
+ssh: 22
+ftp: 20/21
+MYSQL: 3306
+caching: 8080
