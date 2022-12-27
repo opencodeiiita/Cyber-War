@@ -1,0 +1,9 @@
+Among proxy or vpn , vpn is best because the main difference between a proxy and a VPN is encryption. VPNs hide not only your private IP address but all your web activity, such as the websites you visit, using encryption. Proxy servers, on the other hand, will only change your IP address, but they won’t encrypt your online activities. So it is good we get to hide our online activities.
+
+Port number:
+
+http : 80
+Ssh : 22
+ftp : 21 or 22
+MySql : 3306
+Caching : 8080
