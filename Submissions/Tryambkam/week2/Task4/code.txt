@@ -1,0 +1,8 @@
+cd Desktop
+
+zip --password pass123 sample.zip pic1.webp pic2.webp pic3.webp pic4.webp pic5.webp
+
+zip2john sample.zip > password.txt
+
+john password.txt
+
