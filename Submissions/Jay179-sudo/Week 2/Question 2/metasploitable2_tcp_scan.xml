@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Fri Dec 30 08:29:28 2022 as: nmap -sTV -p- -A -vvvv -oA metasploitable2_tcp_scan 192.168.56.103 -->
+<nmaprun scanner="nmap" args="nmap -sTV -p- -A -vvvv -oA metasploitable2_tcp_scan 192.168.56.103" start="1672406968" startstr="Fri Dec 30 08:29:28 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="4"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1672406969"/>
+<taskend task="NSE" time="1672406969"/>
+<taskbegin task="NSE" time="1672406969"/>
+<taskend task="NSE" time="1672406969"/>
+<taskbegin task="NSE" time="1672406969"/>
+<taskend task="NSE" time="1672406969"/>
+<taskbegin task="Ping Scan" time="1672406969"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.56.103" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1672406969" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1672406969"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1672406969"/>
+<taskbegin task="Connect Scan" time="1672406969"/>
+<taskprogress task="Connect Scan" time="1672407000" percent="2.11" remaining="1436" etc="1672408436"/>
+<taskprogress task="Connect Scan" time="1672407153" percent="11.92" remaining="1360" etc="1672408512"/>
+<taskprogress task="Connect Scan" time="1672407213" percent="16.04" remaining="1278" etc="1672408490"/>
+<taskprogress task="Connect Scan" time="1672407291" percent="21.15" remaining="1201" etc="1672408491"/>
+<taskprogress task="Connect Scan" time="1672407369" percent="26.26" remaining="1123" etc="1672408492"/>
+<taskprogress task="Connect Scan" time="1672407456" percent="31.77" remaining="1046" etc="1672408502"/>
+<taskprogress task="Connect Scan" time="1672407537" percent="36.98" remaining="969" etc="1672408505"/>
+<taskprogress task="Connect Scan" time="1672407615" percent="42.04" remaining="891" etc="1672408506"/>
+<taskprogress task="Connect Scan" time="1672407696" percent="47.22" remaining="813" etc="1672408509"/>
+<taskprogress task="Connect Scan" time="1672407774" percent="52.26" remaining="736" etc="1672408509"/>
+<taskprogress task="Connect Scan" time="1672407846" percent="57.14" remaining="658" etc="1672408504"/>
+<taskprogress task="Connect Scan" time="1672407915" percent="62.04" remaining="579" etc="1672408494"/>
+<taskprogress task="Connect Scan" time="1672407984" percent="66.92" remaining="502" etc="1672408486"/>
+<taskprogress task="Connect Scan" time="1672408053" percent="71.82" remaining="426" etc="1672408478"/>
+<taskprogress task="Connect Scan" time="1672408122" percent="76.91" remaining="347" etc="1672408468"/>
+<taskprogress task="Connect Scan" time="1672408191" percent="81.98" remaining="269" etc="1672408460"/>
+<taskprogress task="Connect Scan" time="1672408260" percent="86.92" remaining="195" etc="1672408454"/>
+<taskprogress task="Connect Scan" time="1672408329" percent="92.01" remaining="119" etc="1672408447"/>
+<taskprogress task="Connect Scan" time="1672408398" percent="97.13" remaining="43" etc="1672408440"/>
+<taskend task="Connect Scan" time="1672408437" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1672408437"/>
+<taskbegin task="Traceroute" time="1672408440"/>
+<taskend task="Traceroute" time="1672408449"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1672408449"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1672408449"/>
+<taskbegin task="NSE" time="1672408449"/>
+<taskend task="NSE" time="1672408449"/>
+<taskbegin task="NSE" time="1672408449"/>
+<taskend task="NSE" time="1672408449"/>
+<taskbegin task="NSE" time="1672408449"/>
+<taskend task="NSE" time="1672408449"/>
+<host starttime="1672406969" endtime="1672408449"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="192.168.56.103" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65535">
+<extrareasons reason="no-response" count="65535" proto="tcp" ports="1-65535"/>
+</extraports>
+</ports>
+<os><osfingerprint fingerprint="SCAN(V=7.92%E=4%D=12/30%OT=%CT=%CU=%PV=Y%G=N%TM=63AEED81%P=x86_64-pc-linux-gnu)&#xa;SEQ(CI=I)&#xa;T6(R=Y%DF=N%TG=FF%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)&#xa;T7(R=Y%DF=N%TG=FF%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)&#xa;U1(R=N)&#xa;IE(R=N)&#xa;"/>
+</os>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.0.2.2" rtt="1.80"/>
+<hop ttl="2" ipaddr="192.168.1.254" rtt="20.20" host="dsldevice.lan"/>
+</trace>
+<times srtt="1228" rttvar="2414" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1672408449"/>
+<taskend task="NSE" time="1672408449"/>
+<taskbegin task="NSE" time="1672408449"/>
+<taskend task="NSE" time="1672408449"/>
+<taskbegin task="NSE" time="1672408449"/>
+<taskend task="NSE" time="1672408449"/>
+<runstats><finished time="1672408449" timestr="Fri Dec 30 08:54:09 2022" summary="Nmap done at Fri Dec 30 08:54:09 2022; 1 IP address (1 host up) scanned in 1480.82 seconds" elapsed="1480.82" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

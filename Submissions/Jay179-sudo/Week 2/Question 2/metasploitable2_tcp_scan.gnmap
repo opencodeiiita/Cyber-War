@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Fri Dec 30 08:29:28 2022 as: nmap -sTV -p- -A -vvvv -oA metasploitable2_tcp_scan 192.168.56.103
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.56.103 ()	Status: Up
+Host: 192.168.56.103 ()	Ports: 	Ignored State: filtered (65535)
+# Nmap done at Fri Dec 30 08:54:09 2022 -- 1 IP address (1 host up) scanned in 1480.82 seconds

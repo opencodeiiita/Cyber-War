@@ -1,0 +1,18 @@
+Proxy Server:
+
+A proxy server acts as an intermediary between a user's device and the internet. It can be used for various purposes such as anonymous web browsing, bypassing content restrictions, and masking a user's IP address. Proxy servers can be useful for accessing geographically restricted content and for enforcing content restrictions on certain websites.
+
+
+VPN
+
+A VPN (Virtual Private Network) is a service that encrypts a user's internet activity and hides their device's IP address. It creates a secure, private connection between the user's device and the internet, protecting the user's online activity from being monitored or intercepted by others.
+
+Usually, a proxy server doesn't encrypt web activity whereas a VPN does. A VPN would be a better application keeping security considerations in mind!
+
+Port Numbers:
+
+HTTP: 80
+SSH: 22
+FTP: 21
+MySQL: 3306
+Caching: 443
