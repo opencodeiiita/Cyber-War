@@ -1,0 +1,41 @@
+┌──(ansh㉿kali)-[~/Desktop]
+└─$ zip --password pass123 ansh.zip ansh.txt
+updating: ansh.txt (stored 0%)
+                                                                                               
+┌──(ansh㉿kali)-[~/Desktop]
+└─$ 1zip --password pass123 ansh.zip ansh.txt                             
+Command '1zip' not found, did you mean:
+  command 'mzip' from deb mtools
+  command 'gzip' from deb gzip
+  command 'zip' from deb zip
+  command 'wzip' from deb wzip
+  command 'rzip' from deb rzip
+Try: sudo apt install <deb name>
+                                                                                               
+┌──(ansh㉿kali)-[~/Desktop]
+└─$ zip --password pass123 ansh.zip ansh.txt
+  adding: ansh.txt (stored 0%)
+                                                                                               
+┌──(ansh㉿kali)-[~/Desktop]
+└─$ zip2john ansh.zip > crackedpassword.txt
+ver 1.0 efh 5455 efh 7875 ansh.zip/ansh.txt PKZIP Encr: 2b chk, TS_chk, cmplen=68, decmplen=56, crc=A8CC679E ts=B936 cs=b936 type=0
+                                                                                               
+┌──(ansh㉿kali)-[~/Desktop]
+└─$ cat crackedpassword.txt
+ansh.zip/ansh.txt:$pkzip$1*2*2*0*44*38*a8cc679e*0*42*0*44*b936*4140329121c71f201c382bc4df40d1ce2e65fc2c2a40c9d6f18d36ab1a8ab4376a5fa44802226538c1163bac3aa792496eca92028ece1aa08293073b83269296fa65df9f*$/pkzip$:ansh.txt:ansh.zip::ansh.zip
+                                                                                               
+┌──(ansh㉿kali)-[~/Desktop]
+└─$ john crackedpassword.txt
+Using default input encoding: UTF-8
+Loaded 1 password hash (PKZIP [32/64])
+Will run 8 OpenMP threads
+Proceeding with single, rules:Single
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Proceeding with wordlist:/usr/share/john/password.lst
+Proceeding with incremental:ASCII
+pass123          (ansh.zip/ansh.txt)     
+1g 0:00:00:03 DONE 3/3 (2022-12-31 23:44) 0.2976g/s 1638Kp/s 1638Kc/s 1638KC/s mnmj..pasa192
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+                                                                                               
