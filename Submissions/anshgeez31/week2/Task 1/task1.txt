@@ -1,0 +1,27 @@
+Both proxy servers and VPNs (Virtual Private Networks) can be useful tools for enhancing online privacy and security.
+
+Purpose:
+A proxy server acts as an intermediary between your device and the internet.
+It can be used to hide your IP address, bypass internet filters and censorship, and access region-restricted content.
+A VPN, on the other hand, encrypts all of your internet traffic and routes it through a secure server.
+This helps protect your online activities from being monitored or intercepted by third parties,
+such as your internet service provider or government agencies.
+
+Security:
+In general, VPNs (Virtual Private Networks) are considered to be more secure than proxy servers. This is because VPNs encrypt all
+of your internet traffic and route it through a secure server, providing an additional layer of protection against online threats.
+When you use a VPN, your internet traffic is encrypted and sent to a server operated by the VPN provider. From there, the traffic is
+routed to its destination. This means that anyone trying to monitor or intercept your internet activity, such as your
+internet service provider or government agencies, will only see encrypted data and will not be able to see the websites you visit
+or the information you transmit.
+Proxy servers, on the other hand, act as intermediaries between your device and the internet. They can be used to hide your IP address,
+bypass internet filters and censorship, and access region-restricted content. However, they do not provide the same level of security as a VPN,
+as they do not encrypt your internet traffic.
+Overall, if there is a primarily concern with protecting our online privacy and security, a VPN will be the better option.
+
+Port Numbers:
+http -> 80
+ssh -> 22
+ftp -> 20
+Caching -> 8080
+MySQL -> 3306
