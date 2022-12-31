@@ -1,0 +1,3 @@
+sudo zip2john hello.zip > output.txt
+
+sudo john --format-zip output.txt

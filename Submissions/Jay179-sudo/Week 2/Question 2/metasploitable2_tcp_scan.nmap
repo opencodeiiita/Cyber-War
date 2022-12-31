@@ -1,0 +1,25 @@
+# Nmap 7.92 scan initiated Fri Dec 30 08:29:28 2022 as: nmap -sTV -p- -A -vvvv -oA metasploitable2_tcp_scan 192.168.56.103
+Nmap scan report for 192.168.56.103
+Host is up, received reset ttl 255 (0.0012s latency).
+Scanned at 2022-12-30 08:29:29 EST for 1480s
+All 65535 scanned ports on 192.168.56.103 are in ignored states.
+Not shown: 65535 filtered tcp ports (no-response)
+Too many fingerprints match this host to give specific OS details
+TCP/IP fingerprint:
+SCAN(V=7.92%E=4%D=12/30%OT=%CT=%CU=%PV=Y%G=N%TM=63AEED81%P=x86_64-pc-linux-gnu)
+SEQ(CI=I)
+T6(R=Y%DF=N%TG=FF%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T7(R=Y%DF=N%TG=FF%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)
+U1(R=N)
+IE(R=N)
+
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+1   1.80 ms  10.0.2.2
+2   20.20 ms dsldevice.lan (192.168.1.254)
+3   ... 30
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Dec 30 08:54:09 2022 -- 1 IP address (1 host up) scanned in 1480.82 seconds
