@@ -10,7 +10,7 @@
 |3| Install and configure burp suite(free version) on the system  | 50  |		G	|
 |4| Perform spamming of call and message on your mobile number| 50  |	C + S	|
 |5| Perform website data fetching using burp suite (any one site)  | 50  |		S	|
-|6| You have to make a simple wappalyzer software program | 50 | C + S |
+|6| You have to make a simple port scanner software program | 50 | C + S |
 |7| Write a script to extract details of the system | 50 | C |
 || **TOTAL** 	| **350**	|
 
