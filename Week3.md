@@ -6,7 +6,7 @@
 | | Task		| Points	|	Format To Submit	|
 |--| ------------- 	| -------------	|	-------------------		|
 |1| Change the ip address and mac address of the system | 50  |	C	|
-|2| Perform package gathering using wireshark  | 50  |	C 	|
+|2| Perform package gathering using wireshark  | 50  |	S 	|
 |3| Install and configure burp suite(free version) on the system  | 50  |		G	|
 |4| Perform spamming of call and message on your mobile number| 50  |	C + S	|
 |5| Perform website data fetching using burp suite (any one site)  | 50  |		S	|
