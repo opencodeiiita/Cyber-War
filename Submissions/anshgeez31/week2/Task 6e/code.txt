@@ -1,0 +1,62 @@
+┌──(ansh㉿kali)-[~]
+└─$ sudo apt install alsa-utils
+[sudo] password for ansh: 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libasound2 libasound2-data libatopology2
+Suggested packages:
+  dialog
+The following NEW packages will be installed:
+  alsa-utils libatopology2
+The following packages will be upgraded:
+  libasound2 libasound2-data
+2 upgraded, 2 newly installed, 0 to remove and 663 not upgraded.
+Need to get 1,148 kB/1,531 kB of archives.
+After this operation, 2,634 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://kali.download/kali kali-rolling/main amd64 libatopology2 amd64 1.2.8-1 [50.3 kB]
+Get:2 http://kali.download/kali kali-rolling/main amd64 alsa-utils amd64 1.2.8-1 [1,098 kB]
+Fetched 1,148 kB in 2s (475 kB/s)     
+(Reading database ... 411043 files and directories currently installed.)
+Preparing to unpack .../libasound2_1.2.8-1_amd64.deb ...
+Unpacking libasound2:amd64 (1.2.8-1) over (1.2.7.2-1) ...
+Preparing to unpack .../libasound2-data_1.2.8-1_all.deb ...
+Unpacking libasound2-data (1.2.8-1) over (1.2.7.2-1) ...
+Selecting previously unselected package libatopology2:amd64.
+Preparing to unpack .../libatopology2_1.2.8-1_amd64.deb ...
+Unpacking libatopology2:amd64 (1.2.8-1) ...
+Selecting previously unselected package alsa-utils.
+Preparing to unpack .../alsa-utils_1.2.8-1_amd64.deb ...
+Unpacking alsa-utils (1.2.8-1) ...
+Setting up libasound2-data (1.2.8-1) ...
+Setting up libasound2:amd64 (1.2.8-1) ...
+Setting up libatopology2:amd64 (1.2.8-1) ...
+Setting up alsa-utils (1.2.8-1) ...
+alsa-restore.service is a disabled or a static unit, not starting it.
+alsa-state.service is a disabled or a static unit, not starting it.
+Processing triggers for libc-bin (2.36-4) ...
+Processing triggers for man-db (2.11.0-1+b1) ...
+Processing triggers for kali-menu (2022.4.1) ...
+                                                                                               
+┌──(ansh㉿kali)-[~]
+└─$ amixer set Master 60%
+Simple mixer control 'Master',0
+  Capabilities: pvolume pswitch pswitch-joined
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 65536
+  Mono:
+  Front Left: Playback 39322 [60%] [on]
+  Front Right: Playback 39322 [60%] [on]
+                                                                                               
+┌──(ansh㉿kali)-[~]
+└─$ amixer set Master 30%      
+Simple mixer control 'Master',0
+  Capabilities: pvolume pswitch pswitch-joined
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 65536
+  Mono:
+  Front Left: Playback 19661 [30%] [on]
+  Front Right: Playback 19661 [30%] [on]
+                                                                                               
