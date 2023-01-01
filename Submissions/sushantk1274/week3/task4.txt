@@ -1,0 +1,8 @@
+i have first install TBomb from github  in desktop folder and and then run the following command
+0.ls
+1. cd TBomb
+2.ls
+3.pip3 install -r requirements.txt
+4./TBomb.sh
+5.press 1 for sms 
+6.press 2 for phone call
