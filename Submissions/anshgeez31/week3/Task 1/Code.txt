@@ -1,0 +1,80 @@
+┌──(ansh㉿kali)-[~/Desktop]
+└─$ sudo -i              
+[sudo] password for ansh: 
+┌──(root㉿kali)-[~]
+└─# ifconfig 
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::a00:27ff:fef6:9874  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:f6:98:74  txqueuelen 1000  (Ethernet)
+        RX packets 1180474  bytes 1675130414 (1.5 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 345528  bytes 21154589 (20.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4  bytes 240 (240.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4  bytes 240 (240.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+                                                                                               
+┌──(root㉿kali)-[~]
+└─# ifconfig eth0 192.168.0.23
+                                                                                               
+┌──(root㉿kali)-[~]
+└─# ifconfig                  
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.23  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::a00:27ff:fef6:9874  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:f6:98:74  txqueuelen 1000  (Ethernet)
+        RX packets 1180474  bytes 1675130414 (1.5 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 345529  bytes 21154651 (20.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4  bytes 240 (240.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4  bytes 240 (240.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+                                                                                               
+┌──(root㉿kali)-[~]
+└─# macchanger -s eth0
+Current MAC:   08:00:27:f6:98:74 (CADMUS COMPUTER SYSTEMS)
+Permanent MAC: 08:00:27:f6:98:74 (CADMUS COMPUTER SYSTEMS)
+                                                                                               
+┌──(root㉿kali)-[~]
+└─# ifconfig eth0 down        
+                                                                                               
+┌──(root㉿kali)-[~]
+└─# ifconfig eth0 hw ether 00:3d:45:5f:fd:d8
+                                                                                               
+┌──(root㉿kali)-[~]
+└─# ifconfig eth0 up                        
+                                                                                               
+┌──(root㉿kali)-[~]
+└─# ifconfig        
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::23d:45ff:fe5f:fdd8  prefixlen 64  scopeid 0x20<link>
+        ether 00:3d:45:5f:fd:d8  txqueuelen 1000  (Ethernet)
+        RX packets 1180474  bytes 1675130414 (1.5 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 345540  bytes 21156581 (20.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4  bytes 240 (240.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4  bytes 240 (240.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0 
