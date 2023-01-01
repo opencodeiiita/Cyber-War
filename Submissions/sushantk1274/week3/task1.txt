@@ -1,0 +1,19 @@
+code for changing mac address-
+1.sudo apt install macchanger
+2.ip addr
+
+after this it shows my network interface name that is eth0 check yours
+
+3.macchanger -s eth0
+4.sudo macchanger -r eth0
+To assign a custom MAC address to the eth0 interface:
+5.sudo macchanger -m 44:ee:bc:6c:76:ba eth0
+6.sudo macchanger -p eth0
+now the mac addreass has been changed
+
+code for changing ip address
+1.sudo ifconfig eth0 192.168.0.1 netmask 255.255.255.0
+2.sudo route add default gw 192.168.0.253 eth0
+
+now to see new ip just type
+3.route -n
