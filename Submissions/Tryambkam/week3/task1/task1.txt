@@ -1,0 +1,8 @@
+Login to root user by using (sudo -u)
+
+ifconfig (to check the ip address)
+
+ifconfig eth0 106.211.34.9 (to set any ip address)
+
+macchanger -s eth0  (to check the mac address)
+macchanger -A eth0  (to assign any random mac address)
