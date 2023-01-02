@@ -1,4 +1,8 @@
-i have first install TBomb from github  in desktop folder and and then run the following command
+i have first install TBomb from github  in desktop folder  and and then run the following command
+installation:
+1.git clone "the coned from official website"
+2.then simply execute
+
 0.ls
 1. cd TBomb
 2.ls
