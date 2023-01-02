@@ -1,0 +1,29 @@
+the python code is here//
+
+
+import socket
+import sys
+import time
+usage = "python3 port_scan.py TARGET START_PORT_END_PORT"
+if (len(sys.argv) != 4):
+print (usage)
+sys.exit()
+try:
+except sockket.gaierror:
+target = socket.gethostbyname(sys.argv[1])
+print("Name resolution error")
+sys.exit()
+start_port = int(sys.argv[2])
+end_port = int(sys.argv[3])
+for port in range (start_port, end port+1):
+print("Scanning port:",port)
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.settimeout (2)
+conn = s.connect_ex((target, port))
+if(not conn):
+print("Port {} is OPEN".format(port))
+s.close()
+for port in range(start_port, end_port+1):
+thread = threading. Thread (target = scan_port, args = (port,)) thread.start()
+end_time = time.time()
+print("Time elapsed: ",end_time - start_time,'s')
