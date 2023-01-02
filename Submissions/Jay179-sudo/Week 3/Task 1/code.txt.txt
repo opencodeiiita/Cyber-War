@@ -1,0 +1,6 @@
+macchanger -s eth0
+
+sudo ifconfig eth0 down
+
+sudo macchanger 0r eth0
+

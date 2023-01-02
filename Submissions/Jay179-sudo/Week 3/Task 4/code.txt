@@ -1,0 +1,5 @@
+git clone https://github.com/TheSpeedX/TBomb.git
+cd TBomb
+
+bash tBomb.sh
+
