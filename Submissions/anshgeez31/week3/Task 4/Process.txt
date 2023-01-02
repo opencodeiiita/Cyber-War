@@ -1,0 +1,15 @@
+sudo apt install python
+sudo apt install python2
+sudo apt install python3
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.8 20
+git clone https://github.com/Kai0071/Super-Bombing
+cd Desktop
+sudo bash 
+ls
+pip install -r requirements.txt 
+chmod +x Super-Bombing.sh 
+
+Now open a new terminal again and without giving Root permission
+
+cd Super-Bombing
+bash Super-Bombing.sh
