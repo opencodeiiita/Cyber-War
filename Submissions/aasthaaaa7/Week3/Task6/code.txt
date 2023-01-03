@@ -1,0 +1,24 @@
+#!//usr/bin/python
+
+import socket 
+import sys
+
+start_port = 1
+end_port = 65535
+
+try:
+    for port in range(start_port, end_port):
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        socket.setdefaulttimeout(1)
+        host =  socket.gethostbyname(sys.argv[1])# take IP of host as input
+        result = s.connect_ex((host,port))
+        if result == 0:
+            print("port {} is open".format(port))
+        s.close()
+except Exception as ex:
+    ################### check exception details ######################
+    template = "An exception of type {0} occurred. Arguments:\n{1!r}"
+    message = template.format(type(ex).__name__, ex.args)
+    print (message)
+    print('exception caught')
+    sys.exit()
