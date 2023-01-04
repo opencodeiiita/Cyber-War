@@ -1,0 +1,13 @@
+git clone https://github.com/TheSpeedX/Tbomb.git
+
+cd Tbomb
+
+bash TBomb.sh
+
+selecting option 1
+
+entering country code
+
+entering mobile no. 
+
+spam message details
