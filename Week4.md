@@ -32,7 +32,7 @@ F     | File      |
 
 
 ### NOTE: 
-### 1. Only first 3 correct PR's will merge only.
-### 2. You have to go through PR review for all the task except task2 and after that your PR will merge. So be careful 
+###  Only first 3 correct PR's will merge only.
+ 
 
 ### happy learning
