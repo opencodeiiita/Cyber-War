@@ -1,76 +1,376 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>AIPS Results</title>
-<style type="text/css">
-          @media screen
-          {
-          body {font-family:Verdana, Geneva, sans-serif; background:#fff; color:#10494E;}
-          table {border:1px solid #b3cddc;!important border-collapse:collapse; border-spacing:0px;}
-          th {background-color:#c8dfec; text-align:AIPS Results; padding:5px 10px;}
-          td {padding-left:10px; padding-right:10px;}
-          .r1 {background-color:#e9f4fb;}
-          .r2 {background-color:#f3f8fb;}
-          .head {padding-top:3px; padding-bottom:3px; border-top:1px solid #fff;}
-          .res, .rhead {font-size:0.8em; padding-top:1px; padding-bottom:2px;}
-          .res {float:left; padding-left:15px;}
-          .rhead {float:left; margin-left:30px;}
-		  .svc { color:#000000;}
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--generated with nmap.xsl - version 0.9c by Benjamin Erb - http://www.benjamin-erb.de/nmap_xsl.php --><style type="text/css">
+/* stylesheet print */
+@media print
+{
+  #menu {
+    display:none;
+  }
+
+  body {
+    font-family: Verdana, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    font-size: 13pt;
+    font-weight:bold;
+    margin:4pt 0pt 0pt 0pt;
+    padding:0;
+  }
+
+  h2 {
+    font-size: 12pt;
+    font-weight:bold;
+    margin:3pt 0pt 0pt 0pt;
+    padding:0;
+  }
+
+  h3, a:link, a:visited {
+    font-size: 9pt;
+    font-weight:bold;
+    margin:1pt 0pt 0pt 20pt;
+    padding:0;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  p,ul {
+    font-size: 9pt;
+    margin:1pt 0pt 8pt 40pt;
+    padding:0;
+    text-align:left;
+  }
+
+  li {
+    font-size: 9pt;
+    margin:0;
+    padding:0;
+    text-align:left;
+  }
+
+  table {
+    margin:1pt 0pt 8pt 40pt;
+    border:0px;
+    width:90%
+  }
+
+  td {
+    border:0px;
+    border-top:1px solid black;
+    font-size: 9pt;
+  }
+
+  .head td {
+    border:0px;
+    font-weight:bold;
+    font-size: 9pt;
+  }
+  .noprint { display: none; }
+}
+
+/* stylesheet screen */
+@media screen
+{
+  body {
+    font-family: Verdana, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+  }
+
+  #container {
+    text-align:left;
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  h1 {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 14pt;
+    color: #FFFFFF;
+    background-color:#2A0D45;
+    margin:10px 0px 0px 0px;
+    padding:5px 4px 5px 4px;
+    width: 100%;
+    border:1px solid black;
+    text-align: left;
+  }
+
+  h2 {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 11pt;
+    color: #000000;
+    margin:30px 0px 0px 0px;
+    padding:4px;
+    width: 100%;
+    background-color:#F0F8FF;
+    text-align: left;
+  }
+
+  h2.green {
+    color: #000000;
+    background-color:#CCFFCC;
+    border-color:#006400;
+  }
+
+  h2.red {
+    color: #000000;
+    background-color:#FFCCCC;
+    border-color:#8B0000;
+  }
+   
+  h3 {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 10pt;
+    color:#000000;
+    background-color: #FFFFFF;
+    width: 75%;
+    text-align: left;
+  }
+
+  p {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    color:#000000;
+    background-color: #FFFFFF;
+    width: 75%;
+    text-align: left;
+  }
+
+  p i {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    color:#000000;
+    background-color: #CCCCCC;
+  }
+
+  ul {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    color:#000000;
+    background-color: #FFFFFF;
+    width: 75%;
+    text-align: left;
+  }
+
+  a {
+    font-family: Verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 8pt;
+    color:#000000;
+    font-weight:bold;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  li a {
+    font-family: Verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 10pt;
+    color:#000000;
+    font-weight:bold;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a.up {
+      color:#006400;
+  }
+
+  table {
+    width: 80%;
+    border:0px;
+    color: #000000;
+    background-color: #000000;
+    margin:10px;
+  }
+
+  tr {
+    vertical-align:top;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+    color:#000000;
+    background-color: #FFFFFF;
+  }
+
+  tr.head {
+    background-color: #E1E1E1;
+    color: #000000;
+    font-weight:bold;
+  }
+
+  tr.open {
+    background-color: #CCFFCC;
+    color: #000000;
+  }
+	
+  tr.script {
+    background-color: #EFFFF7;
+    color: #000000;
+  }
+
+  tr.filtered {
+    background-color: #F2F2F2;
+    color: #000000;
+  }
+
+  tr.closed {
+    background-color: #F2F2F2;
+    color: #000000;
+  }
+    
+  td {
+    padding:2px;
+  }
+        
+  #menu li {
+    display         : inline;
+    margin          : 0;
+    /margin-right    : 10px;/
+    padding         : 0;
+    list-style-type : none;
+  }    
+ 
+  #menubox {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 120px;
+  }
+  
+  
+  
+  /* This section handle's IE's refusal to honor the fixed CSS attribute */
+  
+  * html div#menubox {
+    position: absolute;
+    top:expression(eval(
+      document.compatMode && document.compatMode=='CSS1Compat') ?
+      documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight) 
+      : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));
+  }
+  /* This fixes the jerky effect when scrolling in IE*/
+  * html,* html body {
+    background: #fff url(nosuchfile) fixed;
+  }
+
+  
+ 
+  .up {
+    color: #000000;
+    background-color:#CCFFCC;
+  }
+  
+  .down {
+    color:#626262;
+    background-color: #F2F2F2;
+  }
+
+  .print_only { display: none; }
+  .hidden { display: none; }
+  .unhidden { display: block; }
+  
+}
+</style>
+<title>Nmap Scan Report - Scanned at Sun Jan  8 08:59:58 2023</title>
+<script type="text/javascript">
+     
+      
+                
+      function toggle(divID) {
+        var item = document.getElementById(divID);
+        if (item) {
+          item.className=(item.className=='hidden')?'unhidden':'hidden';
+        }
+      }
+           
+      function togglePorts(tableID,portState) {
+        var table = document.getElementById(tableID);    
+        var tbody = table.getElementsByTagName("tbody")[0];
+        var rows = tbody.getElementsByTagName("tr");
+        for (var i=0; i < rows.length; i++) {
+          var value = rows[i].getElementsByTagName("td")[2].firstChild.nodeValue;
+          if (value == portState) {
+            rows[i].style.display = (rows[i].style.display == 'none')?'':'none';
           }
-        </style>
+        }
+      }
+      
+      function toggleAll(portState) {
+        var allTables = document.getElementsByTagName("table");
+        for (var c=0; c < allTables.length; c++) {
+          if (allTables[c].id != "") {
+            togglePorts(allTables[c].id, portState)
+          }
+        }
+      }
+      
+      function init (){
+        toggleAll('closed');
+        toggleAll('filtered');     
+      }     
+            
+      window.onload = init; 
+      
+      
+    
+    </script>
 </head>
 <body>
-<table cellpadding="0" width="100%" dir="ltr">
+<a name="top"></a><div id="container">
+<h1>Nmap Scan Report - Scanned at Sun Jan  8 08:59:58 2023</h1>
+<ul id="menu">
+<li><a href="#scansummary">Scan Summary</a></li>
+<li> | <a href="#host_192_168_92_134" class="up">192.168.92.134</a>
+</li>
+</ul>
+<a name="scansummary"></a><hr class="print_only">
+<h2>Scan Summary</h2>
+<p>
+      Nmap 7.92 was initiated at Sun Jan  8 08:59:58 2023 with these arguments:<br><i>nmap -sT -T4 -sV -p 1-65535 -vv -oX testScan.xml 192.168.92.134</i><br></p>
+<p>
+    Verbosity: 2; Debug level 0</p>
+<p>Nmap done at Sun Jan  8 09:22:29 2023; 1 IP address (1 host up) scanned in 1350.55 seconds</p>
+<hr class="print_only">
+<a name="host_192_168_92_134"></a><h2 class="up">192.168.92.134<span class="print_only">(online)</span>
+</h2>
+<div id="hostblock_192.168.92.134" class="unhidden">
+<h3>Address</h3>
+<ul><li>192.168.92.134
+            (ipv4)
+          </li></ul>
+
+
+<h3>Ports</h3>
+<p>The 65535 ports scanned but not shown below are in state: <b>filtered</b></p>
+<ul><li><p>65535 ports replied with: <b>no-response</b></p></li></ul>
+
+<br><a href="javascript:toggle('metrics_192.168.92.134');">
+    Misc Metrics <span class="noprint"><small> (click to expand)</small></span></a><div id="metrics_192.168.92.134" class="hidden"><table cellspacing="1">
+<tr class="head">
+<td>Metric</td>
+<td>Value</td>
+</tr>
 <tr>
-<th width="7%">Status</th>
-<th>Name</th>
-<th width="18%">IP</th>
-<th width="18%">Manufacturer</th>
-<th width="18%">MAC address</th>
-<th width="18%">Comments</th>
+<td>Ping Results</td>
+<td>reset</td>
 </tr>
-<tr class="r1">
-<td class="head">On</td>
-<td class="head">DESKTOP-6ICT94B</td>
-<td class="head">192.168.26.27</td>
-<td class="head">Liteon Technology Corporation</td>
-<td class="head">54:8C:A0:7F:FD:1F</td>
-<td class="head"></td>
-</tr>
-<tr class="r2">
-<td></td>
-<td colspan="5">
-<div class="rhead">Radmin:</div>
-</td>
-</tr>
-<tr class="r1">
-<td class="head">On</td>
-<td class="head">192.168.26.170</td>
-<td class="head">192.168.26.170</td>
-<td class="head"></td>
-<td class="head">0A:15:06:E5:A0:62</td>
-<td class="head"></td>
-</tr>
-<tr class="r2">
-<td></td>
-<td colspan="5">
-<div class="rhead">Radmin:</div>
-</td>
-</tr>
-<tr class="r1">
-<td class="head">On</td>
-<td class="head">192.168.26.255</td>
-<td class="head">192.168.26.255</td>
-<td class="head">Liteon Technology Corporation</td>
-<td class="head">54:8C:A0:7F:FD:1F</td>
-<td class="head"></td>
-</tr>
-<tr class="r2">
-<td></td>
-<td colspan="5">
-<div class="rhead">Radmin:</div>
-</td>
-</tr>
-</table>
+</table></div>
+</div>
+</div>
+<div id="menubox" class="noprint">
+<a href="#top"><small>Go to top</small></a><br><a href="javascript:toggleAll('closed');"><small>Toggle Closed Ports</small></a><br><a href="javascript:toggleAll('filtered');"><small>Toggle Filtered Ports</small></a>
+</div>
 </body>
 </html>
