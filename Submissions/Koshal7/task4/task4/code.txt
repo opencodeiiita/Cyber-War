@@ -1,0 +1,8 @@
+cd ~/Downloads/
+
+get-item -path .\lulululu.txt -Stream *
+
+get-content -path .\lulululu.txt -Stream hidden 
+
+
+==0utput = Goku{deepu@8055}
