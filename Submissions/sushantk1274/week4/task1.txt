@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>AIPS Results</title>
+<style type="text/css">
+          @media screen
+          {
+          body {font-family:Verdana, Geneva, sans-serif; background:#fff; color:#10494E;}
+          table {border:1px solid #b3cddc;!important border-collapse:collapse; border-spacing:0px;}
+          th {background-color:#c8dfec; text-align:AIPS Results; padding:5px 10px;}
+          td {padding-left:10px; padding-right:10px;}
+          .r1 {background-color:#e9f4fb;}
+          .r2 {background-color:#f3f8fb;}
+          .head {padding-top:3px; padding-bottom:3px; border-top:1px solid #fff;}
+          .res, .rhead {font-size:0.8em; padding-top:1px; padding-bottom:2px;}
+          .res {float:left; padding-left:15px;}
+          .rhead {float:left; margin-left:30px;}
+		  .svc { color:#000000;}
+          }
+        </style>
+</head>
+<body>
+<table cellpadding="0" width="100%" dir="ltr">
+<tr>
+<th width="7%">Status</th>
+<th>Name</th>
+<th width="18%">IP</th>
+<th width="18%">Manufacturer</th>
+<th width="18%">MAC address</th>
+<th width="18%">Comments</th>
+</tr>
+<tr class="r1">
+<td class="head">On</td>
+<td class="head">DESKTOP-6ICT94B</td>
+<td class="head">192.168.26.27</td>
+<td class="head">Liteon Technology Corporation</td>
+<td class="head">54:8C:A0:7F:FD:1F</td>
+<td class="head"></td>
+</tr>
+<tr class="r2">
+<td></td>
+<td colspan="5">
+<div class="rhead">Radmin:</div>
+</td>
+</tr>
+<tr class="r1">
+<td class="head">On</td>
+<td class="head">192.168.26.170</td>
+<td class="head">192.168.26.170</td>
+<td class="head"></td>
+<td class="head">0A:15:06:E5:A0:62</td>
+<td class="head"></td>
+</tr>
+<tr class="r2">
+<td></td>
+<td colspan="5">
+<div class="rhead">Radmin:</div>
+</td>
+</tr>
+<tr class="r1">
+<td class="head">On</td>
+<td class="head">192.168.26.255</td>
+<td class="head">192.168.26.255</td>
+<td class="head">Liteon Technology Corporation</td>
+<td class="head">54:8C:A0:7F:FD:1F</td>
+<td class="head"></td>
+</tr>
+<tr class="r2">
+<td></td>
+<td colspan="5">
+<div class="rhead">Radmin:</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
