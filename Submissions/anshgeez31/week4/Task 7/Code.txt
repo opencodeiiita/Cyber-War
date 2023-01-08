@@ -1,0 +1,46 @@
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.Base64;
+
+import javax.imageio.ImageIO;
+
+class Main {
+  public static void main(String[] args) throws IOException {
+
+    // Load the image file and read the pixel data into a BufferedImage object
+    BufferedImage image = ImageIO.read(new File("joker.jpg"));
+    int[] data = image.getRGB(0, 0, image.getWidth(), image.getHeight(), null, 0, image.getWidth());
+
+    // Encode the message using the pixel data as the key
+    String message = "Ansh Kothari is here";
+    byte[] encrypted = encrypt(message.getBytes(), data);
+
+    // Print the encrypted message as a base64 string
+    System.out.println(Base64.getEncoder().encodeToString(encrypted));
+
+    // Decrypt the message using the pixel data as the key
+    byte[] decrypted = decrypt(encrypted, data);
+
+    // Print the decrypted message
+    System.out.println(new String(decrypted));
+  }
+
+  // Encrypts the given data using the key
+  public static byte[] encrypt(byte[] data, int[] key) {
+    // XOR each byte of the data with the corresponding value from the key
+    for (int i = 0; i < data.length; i++) {
+      data[i] ^= key[i % key.length];
+    }
+    return data;
+  }
+
+  // Decrypts the given data using the key
+  public static byte[] decrypt(byte[] data, int[] key) {
+    // XOR each byte of the data with the corresponding value from the key
+    for (int i = 0; i < data.length; i++) {
+      data[i] ^= key[i % key.length];
+    }
+    return data;
+  }
+}
